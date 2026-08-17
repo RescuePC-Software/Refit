@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>10.0.0</Version>
+    <Authors>Wiktor Wijata</Authors>
+    <Company>RescuePC Software</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Refit" Version="15.1.0" />
+    <PackageReference Include="Refit.HttpClientFactory" Version="15.1.0" />
+  </ItemGroup>
+
+</Project>
