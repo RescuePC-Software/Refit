@@ -8,4 +8,7 @@
   <Folder Name="/Source/">
     <Project Path="Source/RescuePC.Software.Refit/RescuePC.Software.Refit.csproj" />
   </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="Tests/RescuePC.Software.Refit.UnitTests/RescuePC.Software.Refit.UnitTests.csproj" />
+  </Folder>
 </Solution>

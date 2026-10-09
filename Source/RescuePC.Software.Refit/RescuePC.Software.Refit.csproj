@@ -4,7 +4,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>10.0.0</Version>
+    <Version>10.0.1</Version>
     <Authors>Wiktor Wijata</Authors>
     <Company>RescuePC Software</Company>
   </PropertyGroup>
@@ -12,6 +12,9 @@
   <ItemGroup>
     <PackageReference Include="Refit" Version="15.1.0" />
     <PackageReference Include="Refit.HttpClientFactory" Version="15.1.0" />
+    <!-- Refit 15 moved the reflection request builder into this opt-in package, and AddRefitClient asks for it
+         when a client is created. Without it every application using this package fails on the first call. -->
+    <PackageReference Include="Refit.Reflection" Version="15.1.0" />
   </ItemGroup>
 
 </Project>
